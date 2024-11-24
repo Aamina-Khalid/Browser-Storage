@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Storage Demo</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+        <h1 class="heading">Browser Storage Example</h1>
+
+        <!-- Input Fields -->
+        <input class="input" type="text" id="key" placeholder="Enter key" />
+        <br />
+        <input class="input" type="text" id="value" placeholder="Enter value" />
+        <br /><br />
+
+        <!-- Buttons -->
+        <div class="buttons">
+          <button onclick="saveToLocal()">Save to Local Storage</button>
+          <button onclick="saveToSession()">Save to Session Storage</button>
+          <br />
+          <button onclick="retrieveFromLocal()">
+            Retrieve from Local Storage
+          </button>
+          <button onclick="retrieveFromSession()">
+            Retrieve from Session Storage
+          </button>
+          <br />
+          <button onclick="clearStorage()">Clear All Storage</button>
+        </div>
+
+        <h3 id="output">Output:</h3>      
+    </div>
+
+  </body>
+</html>
