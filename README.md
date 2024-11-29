@@ -4,15 +4,15 @@ A simple demonstration of browser storage in JavaScript using HTML, CSS, and Jav
 
 ## Features
 
-Local Storage Demonstration
+ 1. Local Storage Demonstration
 
-Retrieval of Local Storage
+ 2. Retrieval of Local Storage
 
-Session Storage Demonstration
+ 3. Session Storage Demonstration
 
-Retrieval of Session Storage
+4. Retrieval of Session Storage
 
-Clearence of Storage
+5. Clearence of Storage
 
 ## Demonstration
 
